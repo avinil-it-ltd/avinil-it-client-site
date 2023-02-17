@@ -9,7 +9,7 @@ const Carousel = () => {
             {/* slide 1 */}
             <div id="slide1" class="carousel-item relative w-full text-white">
 
-                <div class="hero min-h-screen bg-base-200" Style="background-image: url('https://i.ibb.co/MV6gFX0/banner-1.jpg');">
+                <div class="hero h-[600px] md:h-[800px] lg:h-screen " Style="background-image: url('https://i.ibb.co/MV6gFX0/banner-1.jpg');">
                     <div class="hero-content flex-col lg:flex-row-reverse">
                         <div class="max-w-sm rounded-lg shadow-2xl">
                         </div>
@@ -32,7 +32,7 @@ const Carousel = () => {
 
             <div id="slide2" class="carousel-item relative w-full text-white">
 
-                <div class="hero min-h-screen " Style="background-image: url('https://i.ibb.co/vwGqZrc/banner-2.png');">
+                <div class="hero h-[600px] md:h-[800px] lg:h-screen  " Style="background-image: url('https://i.ibb.co/vwGqZrc/banner-2.png');">
                     <div class="hero-content flex-col lg:flex-row-reverse">
                         <div class="max-w-sm rounded-lg shadow-2xl">
 
@@ -57,7 +57,7 @@ const Carousel = () => {
 
             <div id="slide3" class="carousel-item relative w-full text-white">
 
-            <div class="hero min-h-screen " Style="background-image: url('https://i.ibb.co/zmM9PqJ/businessman-cupped-his-hands-blue-tone.jpg');">
+            <div class="hero h-[600px] md:h-[800px] lg:h-screen  " Style="background-image: url('https://i.ibb.co/zmM9PqJ/businessman-cupped-his-hands-blue-tone.jpg');">
                     <div class="hero-content flex-col lg:flex-row-reverse">
                         <div class="max-w-sm rounded-lg shadow-2xl">
 

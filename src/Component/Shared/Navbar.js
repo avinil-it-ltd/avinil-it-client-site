@@ -50,7 +50,7 @@ const Navbar = () => {
 
 */}
 
-            <div class="navbar fixed z-50  px-4 lg:px-16 bg-slate-900  opacity-80 text-white justify-between">
+            <div class="navbar fixed z-50  px-4 lg:px-24 bg-slate-900  opacity-80 text-white justify-between">
                 <div class="navbar-start">
 
                     <Link to="/home" class="normal-case text-xl "><img className='w-52' src={logo} alt="" /></Link>
