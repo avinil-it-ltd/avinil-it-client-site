@@ -9,7 +9,7 @@ const GetInTouch = () => {
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
                         <h1 class="mb-5 text-5xl font-bold invisible">Hello there</h1>
-                        <Link to="/contact" class="btn bg-slate-900 text-white">Contact</Link>
+                        <Link to="/contact" class="btn bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-500 text-white">Contact</Link>
                     </div>
                 </div>
             </div>

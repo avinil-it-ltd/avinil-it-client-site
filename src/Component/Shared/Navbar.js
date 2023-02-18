@@ -24,6 +24,7 @@ const Navbar = () => {
                     <div className='text-center p-2 fw-bold fs-3'><img className='w-48 h-14' src={logo} alt="" /></div>
                     <ul class="menu  px-1">
                         <li><Link to="/home">Home</Link></li>
+                        <li><Link to="/about">About Us</Link></li>
 
                         <div class="collapse">
                             <input type="checkbox" class="peer" />
@@ -60,6 +61,7 @@ const Navbar = () => {
                 <div class="navbar-end hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><Link to="/home">Home</Link></li>
+                        <li><Link to="/about">About Us</Link></li>
 
                         <li tabindex="0">
                             <p>Services</p>

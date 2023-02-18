@@ -1,7 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AboutUs from "./Component/AboutUs/AboutUs";
 import Career from "./Component/Career/Career";
 import Contact from "./Component/Contact/Contact";
 import Home from "./Component/Home/Home";
+import TermsOfUse from "./Component/TermsOfUse/TermsOfUse";
 
 function App() {
 
@@ -12,8 +14,8 @@ function App() {
     // {path:"bookingTopPlaces" , element: <BookingTopPlaces></BookingTopPlaces>},
     {path:"contact" , element: <Contact></Contact>},
     {path:"career" , element: <Career></Career>},
-    // {path:"about" , element: <About></About>},
-    // {path:"gallery" , element: <Gallery></Gallery>},
+    {path:"about" , element: <AboutUs></AboutUs>},
+    {path:"terms" , element: <TermsOfUse></TermsOfUse>},
     // {path:"services" , element: <Services></Services>},
     // {path:"signUp" , element: <SignUp></SignUp>},
     // {path:"signIn" , element: <SignIn></SignIn>},

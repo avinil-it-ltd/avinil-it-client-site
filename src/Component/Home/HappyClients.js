@@ -99,7 +99,7 @@ const HappyClients = () => {
             </div>
 
 
-            <Link to="/about" class="btn btn-info btn-outline ">Explore More ...</Link>
+            <Link to="/about" class="btn bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ">Explore More ...</Link>
           </div>
         </div>
       </div>

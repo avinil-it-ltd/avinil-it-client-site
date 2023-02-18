@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from './Slider';
 import Footer from '../Shared/Footer';
 import Navbar from '../Shared/Navbar';
 import Carousel from './Carousel';
@@ -30,6 +31,8 @@ const Home = () => {
             
            <SpeciallyWeDo></SpeciallyWeDo>
 
+            {/* <Slider></Slider> */}
+            
             <Footer></Footer>
         </div>
     );

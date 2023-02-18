@@ -14,7 +14,7 @@ const ProvidingServices = () => {
             <h1 className='text-3xl pb-10 font-bold text-white '>The <span className='text-info'>world’s</span> most <span className='text-info'>reliable</span> IT services </h1>
             <div className='grid gap-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-2'>
 
-                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-52 pt-2 bg-slate-700 text-info shadow-xl">
+                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-60 mt-4 pt-2 bg-slate-700 text-info shadow-xl">
                     <figure><img className='w-20' src={softwareDevelopment} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold">Software Development</h2>
@@ -22,7 +22,7 @@ const ProvidingServices = () => {
                 </div>
 
 
-                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-52 pt-2 bg-slate-700 text-info shadow-xl">
+                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-60 mt-4 pt-2 bg-slate-700 text-info shadow-xl">
                     <figure><img className='w-20' src={customSoftwareDevelopment} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold">Custom software Development </h2>
@@ -30,7 +30,7 @@ const ProvidingServices = () => {
                 </div>
 
 
-                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-52 pt-2 bg-slate-700 text-info shadow-xl">
+                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-60 mt-4 pt-2 bg-slate-700 text-info shadow-xl">
                     <figure><img className='w-20' src={webDesign} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold">UI/UX Design </h2>
@@ -38,7 +38,7 @@ const ProvidingServices = () => {
                 </div>
 
 
-                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-52 pt-2 bg-slate-700 text-info shadow-xl">
+                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-60 mt-4 pt-2 bg-slate-700 text-info shadow-xl">
                     <figure><img className='w-20' src={webDeveloper} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold">Web Development </h2>
@@ -46,7 +46,7 @@ const ProvidingServices = () => {
                 </div>
 
 
-                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-52 pt-2 bg-slate-700 text-info shadow-xl">
+                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-60 mt-4 pt-2 bg-slate-700 text-info shadow-xl">
                     <figure><img className='w-20' src={androidAppDevelopment} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold">Android App Development </h2>
@@ -54,7 +54,7 @@ const ProvidingServices = () => {
                 </div>
 
 
-                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-52 pt-2 bg-slate-700 text-info shadow-xl">
+                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-60 mt-4 pt-2 bg-slate-700 text-info shadow-xl">
                     <figure><img className='w-20' src={domainHosting} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold">Domain Hosting</h2>
@@ -62,7 +62,7 @@ const ProvidingServices = () => {
                 </div>
 
 
-                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-52 pt-2 bg-slate-700 text-info shadow-xl">
+                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-60 mt-4 pt-2 bg-slate-700 text-info shadow-xl">
                     <figure><img className='w-20' src={ai} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold">Artificial Intelligence </h2>
@@ -70,7 +70,7 @@ const ProvidingServices = () => {
                 </div>
 
 
-                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-52 pt-2 bg-slate-700 text-info shadow-xl">
+                <div class="card transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-black duration-300  w-40 md:w-52 lg:w-60 mt-4 pt-2 bg-slate-700 text-info shadow-xl">
                     <figure><img className='w-20' src={cloudService} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold">Cloud Services</h2>
