@@ -27,8 +27,10 @@ const Navbar = () => {
                             </div>
                         </div> */}
                         <Link to="/career" className="nav-item nav-link">Career</Link>
+                        <Link to="/contact" className="nav-item nav-link d-sm-block d-lg-none">Contact</Link>
                     </div>
                     <Link to="/contact" className="btn btn-danger text-white py-4 px-lg-5 d-none d-lg-block">Contact<i className="fa fa-arrow-right ms-3"></i></Link>
+                    
                 </div>
             </nav>
         </div>

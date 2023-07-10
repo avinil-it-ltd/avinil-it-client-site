@@ -9,7 +9,7 @@ const Contact = () => {
             <Navbar></Navbar>
 
             <div className="container-fluid   bg-secondary ">
-                <img className='w-100 cover no-repeat   bg-secondary bg-opacity-10' src={contact} alt="" />
+                <img className='w-100 image-fluid cover no-repeat   bg-secondary bg-opacity-10' src={contact} alt="" />
             </div>
 
             <div className="container-xxl py-5">

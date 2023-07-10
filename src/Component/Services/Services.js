@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
-import contact from '../../asset/Images/banner/home_bg_2.png'
+import services from '../../asset/Images/banner/services.jpg'
 const Services = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const Services = () => {
 
 
       <div className="container-fluid   bg-secondary ">
-        <img className='w-100 cover no-repeat   bg-secondary bg-opacity-10' src={contact} alt="" />
+        <img className='w-100 cover no-repeat    bg-opacity-10' src={services} alt="" />
       </div>
 
 
