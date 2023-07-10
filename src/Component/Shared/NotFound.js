@@ -1,5 +1,5 @@
 import React from 'react';
-import notFound from '../../asset/Images/notfound.jpg'
+import notFound from '../../asset/Images/banner/notfound.jpg'
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';

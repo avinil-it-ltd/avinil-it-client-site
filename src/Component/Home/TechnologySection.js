@@ -1,14 +1,14 @@
 import React from 'react';
-
+import technology from "../../asset/Images/banner/technology-1.jpg"
 const TechnologySection = () => {
     return (
         <div>
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="row g-5">
-                        <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" Style="min-height: 400px;">
-                            <div className="position-relative h-100">
-                                <img className="img-fluid position-absolute w-100 h-100" src="\img\tec.jpg" alt="" Style="object-fit: cover;" />
+                        <div className="col-lg-6 wow fadeInUp " data-wow-delay="0.1s" Style="min-height: 400px;">
+                            <div className="position-relative fade-in-left h-100">
+                                <img className="img-fluid position-absolute w-100 h-100" src={technology } alt="" Style="object-fit: cover;" />
                             </div>
                         </div>
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">

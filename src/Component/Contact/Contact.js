@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
-import contact from '../../asset/Images/home_bg_2.png'
+import contact from '../../asset/Images/banner/home_bg_2.png'
 
 const Contact = () => {
     return (

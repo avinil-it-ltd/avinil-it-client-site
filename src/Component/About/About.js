@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
-import team from '../../asset/Images/home_bg_1.png'
+import team from '../../asset/Images/banner/home_bg_1.png'
 import friends1 from '../../asset/Images/friends3.jpg'
 
 import ceo from '../../asset/Images/developer/avishek.png'

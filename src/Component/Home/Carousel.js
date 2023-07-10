@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import banner from '../../asset/Images/banner/carousel-1.jpg'
 const Carousel = () => {
     return (
         <div>
             <div className="container-fluid w-100 p-0 mb-5">
                 <div className="owl-carousel w-100 header-carousel position-relative">
                     <div className="owl-carousel-item position-relative w-full">
-                        <img className="img-fluid w-100" src="img/carousel-1.jpg" alt=""/>
+                        <img className="img-fluid w-100" src={banner} alt=""/>
                             <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" Style="background: rgba(24, 29, 56, .7);">
                                 <div className="container">
                                     <div className="row justify-content-start">

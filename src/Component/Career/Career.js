@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
-import career from '../../asset/Images/carrer.png'
+import career from '../../asset/Images/banner/carrer.png'
 const Career = () => {
     return (
         <div>

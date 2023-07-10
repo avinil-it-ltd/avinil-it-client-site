@@ -1,5 +1,5 @@
 import React from 'react';
-import faq from '../../asset/Images/faq2.jpg'
+import faq from '../../asset/Images/banner/faq2.jpg'
 const Faq = () => {
     return (
         <div>

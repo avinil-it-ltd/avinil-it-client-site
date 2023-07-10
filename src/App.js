@@ -7,6 +7,7 @@ import Career from './Component/Career/Career';
 import NotFound from './Component/Shared/NotFound';
 import TermsCondition from './Component/TermsCondition/TermsCondition';
 import PrivacyPolicy from './Component/PrivacyPolicy/PrivacyPolicy';
+import Services from './Component/Services/Services';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     // {path:"explorePlace/:id" , element: <ExplorePlace></ExplorePlace>},
     // {path:"bookingTopPlaces" , element: <BookingTopPlaces></BookingTopPlaces>},
     {path:"contact" , element: <Contact></Contact>},
+    {path:"services" , element: <Services></Services>},
     {path:"career" , element: <Career></Career>},
     {path:"about" , element: <About></About>},
     { path: "*", element: <NotFound></NotFound> },
