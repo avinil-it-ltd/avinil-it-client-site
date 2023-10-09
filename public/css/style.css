@@ -1,3 +1,4 @@
+
 /********** Template CSS **********/
 :root {
     --primary: #06BBCC;
@@ -20,6 +21,21 @@
     bottom: 45px;
     z-index: 99;
 }
+/* Animation code start here  */
+/* 
+html{
+    scroll-behavior: smooth;
+} */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -412,6 +428,7 @@ body{
 
 /*** Service ***/
 .service-item {
+    height: 300px;
     /* background: var(--light); */
     background:  rgb(254 226 226);
     transition: .5s;

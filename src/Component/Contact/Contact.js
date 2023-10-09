@@ -13,40 +13,40 @@ const Contact = () => {
             </div>
 
             <div className="container-xxl py-5">
-                <div className="container">
+                <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-up"   className="container">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                        <h6 className="section-title bg-white text-center text-primary px-3">Contact Us</h6>
-                        <h1 className="mb-5">Contact For Any Query</h1>
+                        <h6 className="bg-white text-center text-primary px-3">Contact Us</h6>
+                        <h1 className="mb-5">Contact <span className='text-danger'>For Any </span>Query</h1>
                     </div>
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <h5>Our <span className='text-danger fw-bolder fs-4'>Address</span></h5>
                             <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you.</p>
                             <div className="d-flex align-items-center mb-3">
-                                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-danger" Style="width: 50px; height: 50px;">
-                                    <i className="fa  fa-map-marker-alt text-white"></i>
+                                <div className="d-flex align-items-center justify-content-center flex-shrink-0 " Style="width: 50px; height: 50px;">
+                                    <i className="fa  fa-map-marker-alt text-danger"></i>
                                 </div>
                                 <div className="ms-3">
-                                    <h5 className="text-danger">Office</h5>
-                                    <p className="mb-0">123 Street, New York, USA</p>
+                                    <h5 className="text-danger">Location</h5>
+                                    <p className="mb-0">BGCTUB, Chattogram.</p>
                                 </div>
                             </div>
                             <div className="d-flex align-items-center mb-3">
-                                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" Style="width: 50px; height: 50px;">
-                                    <i className="fa fa-phone-alt text-white"></i>
+                                <div className="d-flex align-items-center justify-content-center flex-shrink-0" Style="width: 50px; height: 50px;">
+                                    <i className="fa fa-phone-alt text-primary"></i>
                                 </div>
                                 <div className="ms-3">
                                     <h5 className="text-primary">Mobile</h5>
-                                    <p className="mb-0">+012 345 67890</p>
+                                    <p className="mb-0">+8801874819713, +8801822114359</p>
                                 </div>
                             </div>
                             <div className="d-flex align-items-center">
-                                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-success" Style="width: 50px; height: 50px;">
-                                    <i className="fa fa-envelope-open text-white"></i>
+                                <div className="d-flex align-items-center justify-content-center flex-shrink-0 " Style="width: 50px; height: 50px;">
+                                    <i className="fa fa-envelope-open text-success"></i>
                                 </div>
                                 <div className="ms-3">
                                     <h5 className="text-success">Email</h5>
-                                    <p className="mb-0">info@example.com</p>
+                                    <p className="mb-0">avinil.it.ltd@gmail.com</p>
                                 </div>
                             </div>
                         </div>
@@ -65,24 +65,24 @@ const Contact = () => {
 
                             <form>
                                 <div className="row g-3">
-                                    <div className="col-md-6">
+                                    <div className="col-12">
                                         <div className="form-floating">
                                             <input type="text" className="form-control" id="name" placeholder="Your Name" />
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-12">
                                         <div className="form-floating">
                                             <input type="email" className="form-control" id="email" placeholder="Your Email" />
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
-                                    <div className="col-12">
+                                    {/* <div className="col-12">
                                         <div className="form-floating">
                                             <input type="text" className="form-control" id="subject" placeholder="Subject" />
                                             <label for="subject">Subject</label>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="col-12">
                                         <div className="form-floating">
                                             <textarea className="form-control" placeholder="Leave a message here" id="message" Style="height: 150px"></textarea>

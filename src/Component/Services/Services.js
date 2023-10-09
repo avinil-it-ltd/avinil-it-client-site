@@ -16,7 +16,7 @@ const Services = () => {
 
 
       <div className="text-center wow fadeInUp pt-5" data-wow-delay="0.1s">
-        {/* <h6 className="section-title bg-white text-center text-primary px-3">Career</h6> */}
+        {/* <h6 className="   bg-white text-center text-primary px-3">Career</h6> */}
         <h1 className="mb-5">We Are <span className='text-danger'>Provided</span> Services</h1>
       </div>
 
@@ -27,7 +27,7 @@ const Services = () => {
         </div>
 
 
-        <div class="row row-1">
+        <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-up" class="row row-1">
           <section >
             <i class="icon fas fa-star"></i>
             <div className="wow fadeInUp " data-wow-delay="0.1s">
@@ -43,7 +43,7 @@ const Services = () => {
         </div>
 
 
-        <div class="row row-2">
+        <div  data-aos-duration="1000"  data-aos-offset="300" data-aos="fade-up" class="row row-2">
           <section>
             <i class="icon fas fa-star"></i>
             <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -63,7 +63,7 @@ const Services = () => {
 
 
 
-        <div class="row row-1">
+        <div  data-aos-duration="1000"  data-aos-offset="300" data-aos="fade-up" class="row row-1">
           <section >
             <i class="icon fas fa-star"></i>
             <div className="wow fadeInUp " data-wow-delay="0.1s">
@@ -79,7 +79,7 @@ const Services = () => {
         </div>
 
 
-        <div class="row row-2">
+        <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-up"    class="row row-2">
           <section>
             <i class="icon fas fa-star"></i>
             <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -98,7 +98,7 @@ const Services = () => {
 
 
 
-        <div class="row row-1">
+        <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-up"  class="row row-1">
           <section >
             <i class="icon fas fa-star"></i>
             <div className="wow fadeInUp " data-wow-delay="0.1s">
@@ -114,7 +114,7 @@ const Services = () => {
         </div>
 
 
-        <div class="row row-2">
+        <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-up"  class="row row-2">
           <section>
             <i class="icon fas fa-star"></i>
             <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -132,7 +132,7 @@ const Services = () => {
 
 
 
-        <div class="row row-1">
+        <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-up"  class="row row-1">
           <section >
             <i class="icon fas fa-star"></i>
             <div className="wow fadeInUp " data-wow-delay="0.1s">
@@ -148,7 +148,7 @@ const Services = () => {
         </div>
 
 
-        <div class="row row-2">
+        <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-up"  class="row row-2">
           <section>
             <i class="icon fas fa-star"></i>
             <div className="wow fadeInUp" data-wow-delay="0.1s">

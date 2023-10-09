@@ -11,7 +11,7 @@ const Career = () => {
             </div>
 
             <div className="text-center wow fadeInUp pt-5" data-wow-delay="0.1s">
-                <h6 className="section-title bg-white text-center text-primary px-3">Career</h6>
+                <h6 className="   bg-white text-center text-primary px-3">Career</h6>
                 <h1 className="mb-5">Make Your Career with us</h1>
             </div>
 

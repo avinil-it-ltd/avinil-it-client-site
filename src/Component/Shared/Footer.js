@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../asset/Images/Logo/Avinil-Logo-1-universal.png'
+// import logo from '../../asset/Images/Logo/Avinil-Logo-1-universal.png'
+import logo from '../../asset/Images/Logo/Avinil.png'
 const Footer = () => {
     return (
         <div>
@@ -10,32 +11,10 @@ const Footer = () => {
                 <div className="container py-5">
                     <div className="row g-5">
                         <div className="col-lg-3 col-md-6">
-                            {/* <h4 className="text-white mb-3"></h4> */}
                             <div className="row g-2 pt-2">
-
                                 {/* logo add here  */}
-
                                 <img className='w-50' src={logo} alt="" />
-                                <h5  className='text-white mt-4'>A Software Development & IT solution Company </h5 >
-
-                                {/* <div className="col-4">
-                            <img className="img-fluid bg-light p-1" src="img/course-1.jpg" alt=""/>
-                        </div>
-                        <div className="col-4">
-                            <img className="img-fluid bg-light p-1" src="img/course-2.jpg" alt=""/>
-                        </div>
-                        <div className="col-4">
-                            <img className="img-fluid bg-light p-1" src="img/course-3.jpg" alt=""/>
-                        </div>
-                        <div className="col-4">
-                            <img className="img-fluid bg-light p-1" src="img/course-2.jpg" alt=""/>
-                        </div>
-                        <div className="col-4">
-                            <img className="img-fluid bg-light p-1" src="img/course-3.jpg" alt=""/>
-                        </div>
-                        <div className="col-4">
-                            <img className="img-fluid bg-light p-1" src="img/course-1.jpg" alt=""/>
-                        </div> */}
+                                <h5  className='text-white mt-4'>A Software Development & Information Technology Company </h5 >
                             </div>
                         </div>
 
@@ -55,10 +34,10 @@ const Footer = () => {
                             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+8801822114359</p>
                             <p className="mb-2"><i className="fa fa-envelope me-3"></i>avinil.it.ltd@gmail.com</p>
                             <div className="d-flex pt-2">
-                                <Link to="" Style="background: " className="btn bg-danger btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></Link>
-                                <Link to="" Style="background: " className="btn bg-primary btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></Link>
-                                <Link to="" Style="background:green " className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></Link>
-                                <Link to="" Style="background:#FFA41B " className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></Link>
+                                {/* <Link target='_blank' to="" Style="background: " className="btn bg-danger btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></Link> */}
+                                <Link target='_blank' to="https://www.facebook.com/profile.php?id=61550537558799" Style="background: " className="btn bg-primary btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></Link>
+                                {/* <Link target='_blank' to="" Style="background:green " className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></Link> */}
+                                <Link target='_blank' to="https://www.linkedin.com/in/avinil-it-ltd-822162295/" Style="background:#FFA41B " className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></Link>
                             </div>
                         </div>
 
@@ -85,6 +64,7 @@ const Footer = () => {
                                     <Link to="/home"  >Cookies</Link>
                                     <Link to="/contact"  >Help</Link>
                                     <Link to="/home"  >FQAs</Link>
+                                    <Link to="/login"  >Login</Link>
                                 </div>
                             </div>
                         </div>

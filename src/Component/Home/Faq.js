@@ -7,7 +7,7 @@ const Faq = () => {
                 <div className="container">
                     <div className="row g-5">
 
-                        <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-right"  className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                             <h1 className="mb-4 text-primary ">Frequently <span className='text-warning'>Ask </span>Question <span className='text-danger fs-1'>?</span></h1>
                             <div className="accordion accordion-flush" id="accordionFlushExample">
                                 <div className="accordion-item">
@@ -43,7 +43,7 @@ const Faq = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" Style="min-height: 400px;">
+                        <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-left"  className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" Style="min-height: 400px;">
                             <div className="position-relative h-100">
                                 <img className="img-fluid position-absolute w-100 h-100" src={faq} alt="" Style="object-fit: cover;" />
                             </div>

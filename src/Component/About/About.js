@@ -21,14 +21,14 @@ const About = () => {
             </div>
 
             <div className="text-center wow fadeInUp pt-5" data-wow-delay="0.1s">
-                <h6 className="section-title bg-white text-center text-primary px-3">About Us</h6>
+                <h6 className=" bg-white text-center text-primary px-3">About Us</h6>
                 <h1 className="mb-5">Learn about us</h1>
             </div>
 
 
 
             {/* our identity section start here  */}
-            <div className="">
+            <div data-aos-duration="1000" data-aos-offset="300" data-aos="zoom-in-up" className="">
                 <div className="container">
                     <h2 className=''>Who <span className='text-danger fw-bolder fs-1 '> We Are </span> </h2>
                     <div className=''>
@@ -58,7 +58,7 @@ const About = () => {
 
             {/* our mission section start here */}
 
-            <div className="py-5 ">
+            <div data-aos-duration="1000" data-aos-offset="300" data-aos="zoom-in-up" className="py-5 ">
                 <div className="container">
                     <h2 className=''>Our <span className='text-danger fw-bolder fs-1 '> Mission </span> </h2>
                     <div>
@@ -76,9 +76,8 @@ const About = () => {
 
 
 
-            {/* Team section  Start  */}
-{/* 
 
+ {/* 
 image size
 width 404
 height 505
@@ -88,27 +87,20 @@ height 505
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                        <h6 className="section-title bg-white text-center text-primary px-3">Team</h6>
+                        <h6 className="   bg-white text-center text-primary px-3">Team</h6>
                         <h1 className="mb-5">Our Experties Member</h1>
                     </div>
 
 
-                    <div className="row g-4">
+                    <div data-aos-duration="1000" data-aos-offset="300" data-aos="fade-up" className="row g-4">
 
 
                         <div className="col-lg-3 col-md-6 wow fadeInUp " data-wow-delay="0.3s">
-                            <div className="team-item bg-light ">
+                            <div className="team-item bg-light  ">
                                 <div className="overflow-hidden ">
                                     <img className="img-fluid " src={ceo} alt="" />
                                 </div>
-                                <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
-                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                        <a className="btn btn-sm-square btn-primary      mx-1" Style="background: #2EB67D" href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="btn btn-sm-square btn-primary bg-danger    mx-1"  href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="btn btn-sm-square btn-primary     mx-1" href="" Style="backgroumd: #E5AD2D"><i className="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div className="text-center p-4">
+                                <div className="position-relative text-center p-4">
                                     <h5 className="mb-0">Avishek Devnath</h5>
                                     <small>CEO</small>
                                 </div>
@@ -121,13 +113,6 @@ height 505
                                 <div className="overflow-hidden ">
                                     <img className="img-fluid " src={cto} alt="" />
                                 </div>
-                                <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
-                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                        <a className="btn btn-sm-square btn-primary    mx-1" Style="background: #2EB67D"  href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="btn btn-sm-square btn-primary  bg-danger    mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="btn btn-sm-square btn-primary  bg-danger    mx-1"  Style="backgroumd: #E5AD2D" href=""><i className="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Niloy Dey</h5>
                                     <small> CTO </small>
@@ -139,13 +124,6 @@ height 505
                                 <div className="overflow-hidden">
                                     <img className="img-fluid" src={analyst} alt="" />
                                 </div>
-                                <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
-                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                        <a className="btn btn-sm-square btn-primary      mx-1" Style="background: #2EB67D"  href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="btn btn-sm-square btn-primary  bg-danger    mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="btn btn-sm-square btn-primary     mx-1"  Style="backgroumd: #E5AD2D" href=""><i className="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Suparna Dhar </h5>
                                     <small>IT Analyst</small>
@@ -156,13 +134,6 @@ height 505
                             <div className="team-item bg-light">
                                 <div className="overflow-hidden">
                                     <img className="img-fluid" src={softwareDeveloper} alt="" />
-                                </div>
-                                <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
-                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                        <a className="btn btn-sm-square btn-primary    mx-1" Style="background: #2EB67D"  href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="btn btn-sm-square btn-primary  bg-danger    mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="btn btn-sm-square btn-primary      mx-1"  Style="backgroumd: #E5AD2D"  href=""><i className="fab fa-instagram"></i></a>
-                                    </div>
                                 </div>
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Bijon Talukder</h5>
@@ -176,13 +147,6 @@ height 505
                                 <div className="overflow-hidden">
                                     <img className="img-fluid" src={arpita} alt="" />
                                 </div>
-                                <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
-                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                        <a className="btn btn-sm-square btn-primary    mx-1" Style="background: #2EB67D"  href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="btn btn-sm-square btn-primary  bg-danger    mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="btn btn-sm-square btn-primary     mx-1"  Style="backgroumd: #E5AD2D" href=""><i className="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Arpita Dhar </h5>
                                     <small>Brand Ambassador</small>
@@ -190,19 +154,12 @@ height 505
                             </div>
                         </div>
 
-                       
+
 
                         <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div className="team-item bg-light">
                                 <div className="overflow-hidden">
                                     <img className="img-fluid " src={trishna} alt="" />
-                                </div>
-                                <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
-                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                        <a className="btn btn-sm-square btn-primary     mx-1" Style="background: #2EB67D" href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="btn btn-sm-square btn-primary  bg-danger    mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="btn btn-sm-square btn-primary    mx-1" href=""><i className="fab fa-instagram"></i></a>
-                                    </div>
                                 </div>
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Trishna Nath</h5>
@@ -216,13 +173,6 @@ height 505
                             <div className="team-item bg-light">
                                 <div className="overflow-hidden">
                                     <img className="img-fluid" src={ritu} alt="" />
-                                </div>
-                                <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
-                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                        <a className="btn btn-sm-square btn-primary     mx-1" Style="background: #2EB67D" href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="btn btn-sm-square btn-primary  bg-danger    mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="btn btn-sm-square btn-primary     mx-1" href=""><i className="fab fa-instagram"></i></a>
-                                    </div>
                                 </div>
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Ritu Priya Chy</h5>
@@ -238,13 +188,7 @@ height 505
                                 <div className="overflow-hidden">
                                     <img className="img-fluid" src={dip} alt="" />
                                 </div>
-                                <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
-                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                        <a className="btn btn-sm-square btn-primary    mx-1" Style="background: #2EB67D" href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="btn btn-sm-square btn-primary  bg-danger    mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="btn btn-sm-square btn-primary    mx-1" href=""><i className="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
+                               
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Diprodip Das</h5>
                                     <small>Web Developer</small>
@@ -265,3 +209,15 @@ height 505
 };
 
 export default About;
+
+
+
+
+/* <div className="position-relative d-flex justify-content-center" Style="margin-top: -23px;">
+                                    <div className="bg-light d-flex justify-content-center pt-2 px-1">
+                                        <a className="btn btn-sm-square btn-primary      mx-1" Style="background: #2EB67D" href=""><i className="fab fa-facebook-f"></i></a>
+                                        <a className="btn btn-sm-square btn-primary bg-danger    mx-1"  href=""><i className="fab fa-twitter"></i></a>
+                                        <a className="btn btn-sm-square btn-primary     mx-1" href="" Style="backgroumd: #E5AD2D"><i className="fab fa-instagram"></i></a>
+                                    </div>
+                                </div> 
+*/
