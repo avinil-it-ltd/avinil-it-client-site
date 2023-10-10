@@ -27,9 +27,15 @@ html{
     scroll-behavior: smooth;
 } */
 
+.custom-height {
+    height: 750px; /* Set your desired height here */
+}
 
 
-
+.custom-image-widht{
+    height: 505px;
+    width: 404px
+}
 
 
 
@@ -385,6 +391,10 @@ body{
     color: var(--light);
 }
 
+
+.imageCopyright{
+    font-size:6px ;
+}
 
 /*** Section Title ***/
 .section-title {

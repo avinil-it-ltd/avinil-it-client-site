@@ -20,7 +20,7 @@ const Career = () => {
 
             {/* Career form section start here  */}
 
-            <div className='container '>
+            <div className='container w-50'>
                 <form action="">
                     <div className="mb-3">
                         <label for="exampleFormControlInput1" className="form-label">Name</label>

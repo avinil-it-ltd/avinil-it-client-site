@@ -12,6 +12,10 @@ import arpita from '../../asset/Images/developer/arpita.png'
 import trishna from '../../asset/Images/developer/trishna.png'
 import dip from '../../asset/Images/developer/dip.png'
 import ritu from '../../asset/Images/developer/ritu.png'
+import hr from '../../asset/Images/developer/roxy.png'
+import priom from '../../asset/Images/developer/priom.png'
+import bappy from '../../asset/Images/developer/kakon.png'
+import sabid from '../../asset/Images/developer/sabit.png'
 const About = () => {
     return (
         <div className=''>
@@ -79,7 +83,7 @@ const About = () => {
 
  {/* 
 image size
-width 404
+width 494
 height 505
 
 */}
@@ -102,7 +106,7 @@ height 505
                                 </div>
                                 <div className="position-relative text-center p-4">
                                     <h5 className="mb-0">Avishek Devnath</h5>
-                                    <small>CEO</small>
+                                    <small>Co-Founder & CEO</small>
                                 </div>
                             </div>
                         </div>
@@ -115,10 +119,47 @@ height 505
                                 </div>
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Niloy Dey</h5>
-                                    <small> CTO </small>
+                                    <small>Co-Founder & CTO </small>
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-3 col-md-6 wow fadeInUp " data-wow-delay="0.3s">
+                            <div className="team-item bg-light ">
+                                <div className="overflow-hidden ">
+                                    <img className="img-fluid " src={bappy} alt="" />
+                                </div>
+                                <div className="text-center p-4">
+                                    <h5 className="mb-0">Bappy Islam Kakon</h5>
+                                    <small>Law Advisor</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 col-md-6 wow fadeInUp " data-wow-delay="0.3s">
+                            <div className="team-item bg-light  ">
+                                <div className="overflow-hidden ">
+                                    <img className="img-fluid " src={hr} alt="" />
+                                </div>
+                                <div className="position-relative text-center p-4">
+                                    <h5 className="mb-0">Kaniz Fatema Roxy</h5>
+                                    <small>HR Manager</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div className="team-item bg-light">
+                                <div className="overflow-hidden">
+                                    <img className="img-fluid" src={arpita} alt="" />
+                                </div>
+                                <div className="text-center p-4">
+                                    <h5 className="mb-0">Arpita Dhar </h5>
+                                    <small>Brand Ambassador</small>
+                                </div>
+                            </div>
+                        </div>
+
+
                         <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="team-item bg-light">
                                 <div className="overflow-hidden">
@@ -142,19 +183,7 @@ height 505
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div className="team-item bg-light">
-                                <div className="overflow-hidden">
-                                    <img className="img-fluid" src={arpita} alt="" />
-                                </div>
-                                <div className="text-center p-4">
-                                    <h5 className="mb-0">Arpita Dhar </h5>
-                                    <small>Brand Ambassador</small>
-                                </div>
-                            </div>
-                        </div>
-
-
+         
 
                         <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div className="team-item bg-light">
@@ -164,6 +193,19 @@ height 505
                                 <div className="text-center p-4">
                                     <h5 className="mb-0">Trishna Nath</h5>
                                     <small>Front-End Developer</small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="col-lg-3 col-md-6 wow fadeInUp " data-wow-delay="0.3s">
+                            <div className="team-item bg-light  ">
+                                <div className="overflow-hidden ">
+                                    <img className="img-fluid " src={priom} alt="" />
+                                </div>
+                                <div className="position-relative text-center p-4">
+                                    <h5 className="mb-0">Priom Prasad</h5>
+                                    <small>.Net Developer</small>
                                 </div>
                             </div>
                         </div>
@@ -195,6 +237,21 @@ height 505
                                 </div>
                             </div>
                         </div>
+
+
+                        <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div className="team-item bg-light">
+                                <div className="overflow-hidden">
+                                    <img className="img-fluid" src={sabid} alt="" />
+                                </div>
+                                <div className="text-center p-4">
+                                    <h5 className="mb-0">Sabid Jidan </h5>
+                                    <small>Software Developer</small>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>

@@ -1,16 +1,17 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
-import contact from '../../asset/Images/banner/home_bg_2.png'
+import contact from '../../asset/Images/banner/contact.jpg'
 
 const Contact = () => {
     return (
         <div>
             <Navbar></Navbar>
 
-            <div className="container-fluid   bg-secondary ">
-                <img className='w-100 image-fluid cover no-repeat   bg-secondary bg-opacity-10' src={contact} alt="" />
-            </div>
+            <div className="container-fluid bg-secondary">
+    <img className='w-100 image-fluid cover no-repeat bg-secondary bg-opacity-10 custom-height' src={contact} alt="" />
+</div>
+
 
             <div className="container-xxl py-5">
                 <div data-aos-duration="1000"   data-aos-offset="300" data-aos="fade-up"   className="container">
