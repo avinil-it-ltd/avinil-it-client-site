@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
-import Loading from '../Shared/Loading';
+// import Loading from '../Shared/Loading';
 import Carousel from './Carousel';
 import HomeServices from './HomeServices';
 import TechnologySection from './TechnologySection';
 import OurClient from './OurClient';
 import Gallary from './Gallary';
-import Evaluation from './Evaluation';
+// import Evaluation from './Evaluation';
 import Faq from './Faq';
 
 const Home = () => {

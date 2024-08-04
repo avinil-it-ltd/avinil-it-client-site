@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import avinil from '../../asset/Images/Logo/Avinil-Logo-1-universal.png'
 import avinil from '../../asset/Images/Logo/Avinil.png'
+import logo4 from '../../asset/Images/Logo/logo4.png'
 const Navbar = () => {
     return (
         <div>
@@ -9,7 +10,7 @@ const Navbar = () => {
             <nav Style=" " className="navbar  container navbar-expand-lg navbar-light  sticky-top p-0">
                 <div className='d-flex justify-content-between'>
                     <Link to="/" Style="" className="navbar-brand d-flex align-items-center w-25 ms-2">
-                        <img Style="" className='img-fluid' src={avinil} alt="" />
+                        <img Style="" className='img-fluid' src={logo4} alt="" />
                     </Link>
                     <button type="button" className="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
